@@ -1,0 +1,17 @@
+@import url("cabecalho.css");
+
+:root {
+    --cor-escrita-logo: #3A404E;
+    --cor-titulos: #101828;
+    --cor-textos: #667085;
+    --cor-branco: #fff;
+    --cor-vinho: #8E2424;
+
+    --fonte-principal: "inter";
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    color: var(--cor-textos);
+}
