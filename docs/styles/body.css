@@ -1,5 +1,6 @@
 @import url("navegacao.css");
 @import url("cabecalho.css");
+@import url("resultados.css");
 
 :root {
     --cor-escrita-logo: #3A404E;

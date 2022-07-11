@@ -1,0 +1,26 @@
+.resultados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 6rem;
+}
+
+.resultados__bloco-titulo {
+    color: var(--cor-vinho);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.resultados__bloco-subtitulo {
+    color: var(--cor-titulos);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.resultados__bloco-texto {
+    font-weight: 400;
+    line-height: 24px;
+}
