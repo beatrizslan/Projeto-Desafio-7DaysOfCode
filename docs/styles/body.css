@@ -1,5 +1,5 @@
-@import url("navegacao.css");
 @import url("cabecalho.css");
+@import url("secao.css");
 @import url("resultados.css");
 
 :root {
@@ -8,6 +8,7 @@
     --cor-textos: #667085;
     --cor-branco: #fff;
     --cor-vinho: #8E2424;
+    --cor-fundo-generico: #8E24240D;
 
     --fonte-principal: "inter";
 }

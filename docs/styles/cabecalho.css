@@ -1,28 +1,46 @@
 .cabecalho {
     display: flex;
-    flex-direction: column;
-    text-align: center;
     align-items: center;
-    gap: 2em;
-    padding: 6rem 0;
+    justify-content: space-around;
+    padding: 2rem 0;
 }
 
-.cabecalho__generico {
-    color: var(--cor-vinho);
-    font-weight: 600;
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.cabecalho__logo-titulo {
+    color: var(--cor-escrita-logo);
+    font-size: 18px;
+    font-weight: 500;
     line-height: 24px;
 }
 
-.cabecalho__titulo {
-    color: var(--cor-titulos);
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 60px;
+.cabecalho__navegacao {
+    padding-right: 12rem;
 }
 
-.cabecalho__texto {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    padding: 0 18rem;
+.cabecalho__navegacao-links {
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0 1em;
+}
+
+.cabecalho__botoes {
+    background: transparent;
+    font-weight: 500;
+    padding: 0 1em;
+    line-height: 24px;
+}
+
+.cabecalho__botoes-vinho {
+    box-sizing: border-box;
+    background: var(--cor-vinho);
+    color: var(--cor-branco);
+    border: 1px solid var(--cor-vinho);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 10px 18px;
 }

@@ -12,28 +12,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navegacao">
-        <div class="navegacao__logo">
-            <img src="img/worldwide 1 (Traced).svg" alt="Logo da OptimusTech" class="navegacao__logo-imagem">
-            <h1 class="navegacao__logo-titulo">OptimusTech</h1>
-        </div>
-        <div class="navegacao__paginas">
-            <a href="#" class="navegacao__links">Home</a>
-            <a href="#" class="navegacao__links">Produtos</a>
-            <a href="#" class="navegacao__links">Recursos</a>
-            <a href="#" class="navegacao__links">Sobre nós</a>
-        </div>
-        <div class="navegacao__login">
-            <button class="navegacao__botoes">Entrar</button>
-            <button class="navegacao__botoes navegacao__botoes-vinho">Cadastrar</button>
-        </div>
-    </nav>
     <header class="cabecalho">
-        <span class="cabecalho__generico">Sobre nós</span>
-        <h1 class="cabecalho__titulo">Por que somos diferentes?</h1>
-        <p class="cabecalho__texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        <div class="cabecalho__logo">
+            <img src="img/logo.svg" alt="Logo da OptimusTech" class="cabecalho__logo-imagem">
+            <h1 class="cabecalho__logo-titulo">OptimusTech</h1>
+        </div>
+        <nav class="cabecalho__navegacao">
+            <a href="#" class="cabecalho__navegacao-links">Home</a>
+            <a href="#" class="cabecalho__navegacao-links">Produtos</a>
+            <a href="#" class="cabecalho__navegacao-links">Recursos</a>
+            <a href="#" class="cabecalho__navegacao-links">Sobre nós</a>
+        </nav>
+        <div class="cabecalho__login">
+            <button class="cabecalho__botoes">Entrar</button>
+            <button class="cabecalho__botoes cabecalho__botoes-vinho">Cadastrar</button>
+        </div>
     </header>
+
     <main>
+        <section class="secao">
+            <span class="secao__generico">Sobre nós</span>
+            <h1 class="secao__titulo">Por que somos diferentes?</h1>
+            <p class="secao__texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        </section>
+
         <section class="resultados">
             <div class="resultados__bloco">
                 <h1 class="resultados__bloco-titulo">400+</h1>
@@ -55,6 +57,13 @@
                 <h2 class="resultados__bloco-subtitulo">Reviews 5 estrelas</h2>
                 <p class="resultados__bloco-texto">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
             </div>
+        </section>
+
+        <section class="secao">
+            <span class="secao__generico secao__generico-vagas">Vagas abertas!</span>
+            <h1 class="secao__titulo">Estamos procurando por talentos</h1>
+            <p class="secao__texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+            <img src="img/talentos.jpg" alt="Equipe de trabalho" class="secao__imagem">
         </section>
     </main>
 </body>
