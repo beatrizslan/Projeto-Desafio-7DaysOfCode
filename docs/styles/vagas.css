@@ -1,0 +1,43 @@
+.vagas {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    width: 100vh;
+}
+
+.vagas__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-titulos);
+    padding-bottom: 1em;
+}
+
+.vagas__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    width: 768px;
+    padding: 2em;
+    margin: 1em 0;
+}
+
+.vagas__descricao__cargo {
+    color: var(--cor-titulos);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vagas__descricao__informacoes {
+    display: flex;
+    gap: 2em;
+    font-weight: 500;
+}
+
+.vagas__titulo-secundario {
+    margin-top: 3em;
+}
+
+
+

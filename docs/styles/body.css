@@ -1,6 +1,8 @@
 @import url("cabecalho.css");
 @import url("secao.css");
 @import url("resultados.css");
+@import url("vagas.css");
+@import url("depoimentos.css");
 
 :root {
     --cor-escrita-logo: #3A404E;
@@ -9,6 +11,8 @@
     --cor-branco: #fff;
     --cor-vinho: #8E2424;
     --cor-fundo-generico: #8E24240D;
+    --cor-borda: #EAECF0;
+    --cor-fundo-depoimentos: #C3191908;
 
     --fonte-principal: "inter";
 }

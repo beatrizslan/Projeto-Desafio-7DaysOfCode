@@ -1,0 +1,16 @@
+.secao-depoimentos {
+    background: var(--cor-fundo-depoimentos);
+    gap: 1em;
+    padding: 6rem 2rem;
+    margin: 6rem;
+}
+
+.secao__perfil__nome {
+    color: var(--cor-titulos);
+    font-weight: 500;
+}
+
+.secao__perfil__cargo {
+    font-size: 14px;
+    font-weight: 400;
+}
