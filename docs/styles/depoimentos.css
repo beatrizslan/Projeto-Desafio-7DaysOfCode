@@ -1,8 +1,7 @@
 .secao-depoimentos {
     background: var(--cor-fundo-depoimentos);
-    gap: 1em;
-    padding: 6rem 2rem;
-    margin: 6rem;
+    gap: 1.5em;
+    margin: 5rem 0;
 }
 
 .secao__perfil__nome {
@@ -13,4 +12,8 @@
 .secao__perfil__cargo {
     font-size: 14px;
     font-weight: 400;
+}
+
+.secao-depoimentos--imagem {
+    width: 50px;
 }
