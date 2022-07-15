@@ -1,0 +1,36 @@
+.rodape {
+    background: var(--cor-fundo-rodape);
+    gap: 1em;
+}
+
+.secao__titulo-rodape {
+    font-size: 36px;
+}
+
+.rodape__contato {
+    padding: 1em 0;
+}
+
+.rodape__contato__email {
+    width: 360px;
+    height: 48px;
+    background: var(--cor-branco);
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.rodape__contato__email::placeholder {
+    padding-left: 1em;
+}
+
+.rodape__contato__botao {
+    width: 116px;
+    height: 48px;
+    font-weight: 5007;
+    background: var(--cor-vinho);
+    color: var(--cor-branco);
+    border: 1px solid var(--cor-vinho);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}

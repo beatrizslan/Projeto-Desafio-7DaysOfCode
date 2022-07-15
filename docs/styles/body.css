@@ -3,6 +3,7 @@
 @import url("resultados.css");
 @import url("vagas.css");
 @import url("depoimentos.css");
+@import url("rodape.css");
 
 :root {
     --cor-escrita-logo: #3A404E;
@@ -13,6 +14,7 @@
     --cor-fundo-generico: #8E24240D;
     --cor-borda: #EAECF0;
     --cor-fundo-depoimentos: #C3191908;
+    --cor-fundo-rodape: #F9FAFB;
 
     --fonte-principal: "inter";
 }
