@@ -1,0 +1,100 @@
+
+/*CONTAINER*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.container__span {
+    color: var(--cor-vinho);
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.container__titulo {
+    color: var(--cor-titulos);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.container__texto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*SOBRE*/
+
+.sobre {
+    margin: 5rem;
+    padding: 0 5rem;
+}
+
+/*TALENTOS E DEPOIMENTOS*/
+
+.talentos, .depoimentos {
+    margin: 5rem 2rem;
+}
+
+.talentos__imagem {
+    width: 100%;
+}
+
+.depoimentos {
+    background: var(--cor-fundo-depoimentos);
+    padding: 2rem;
+}
+
+.depoimentos__colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.depoimentos__imagem {
+    width: 56px;
+}
+
+.depoimentos__nome {
+    color: var(--cor-titulos);
+    font-weight: 500;
+}
+
+.depoimentos__cargo {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*REPONSIVO*/
+
+@media screen and (max-width: 480px) {
+
+    .container__titulo {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .container__texto {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .sobre {
+        margin: 4rem 2rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    .sobre {
+        margin: 4rem 2rem;
+        padding: 0;
+    }
+}

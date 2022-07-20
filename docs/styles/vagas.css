@@ -1,42 +1,63 @@
+
+/*VAGAS*/
+
 .vagas {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+.vagas__area {
     margin: 0 auto;
-    width: 100vh;
+    width: 50%;
 }
 
 .vagas__titulo {
+    color: var(--cor-titulos);
     font-size: 20px;
     font-weight: 500;
-    color: var(--cor-titulos);
     padding-bottom: 1em;
+    line-height: 1.5em;
 }
 
-.vagas__descricao {
+.vagas__box {
     display: flex;
     flex-direction: column;
     gap: 2em;
     border: 1px solid var(--cor-borda);
     border-radius: 16px;
-    width: 768px;
+    font-weight: 500;
     padding: 2em;
-    margin: 1em 0;
+    margin: 2em 0;
 }
 
-.vagas__descricao__cargo {
+.vagas__subtitulo {
     color: var(--cor-titulos);
     font-size: 18px;
     font-weight: 500;
+    line-height: 1.5em;
 }
 
-.vagas__descricao__informacoes {
+.vagas__salario {
     display: flex;
-    gap: 2em;
-    font-weight: 500;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.vagas__titulo-secundario {
-    margin-top: 3em;
+/*RESPONSIVO*/
+
+@media screen and (max-width: 480px) {
+
+    .vagas__area {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .vagas__area {
+        width: 70%;
+    }
 }
 
 

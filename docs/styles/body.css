@@ -1,8 +1,7 @@
 @import url("cabecalho.css");
-@import url("secao.css");
+@import url("container.css");
 @import url("resultados.css");
 @import url("vagas.css");
-@import url("depoimentos.css");
 @import url("rodape.css");
 
 :root {
@@ -20,9 +19,8 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
+    color: var(--cor-textos);
     font-family: var(--fonte-principal);
     font-size: 16px;
-    color: var(--cor-textos);
+    height: 100vh;
 }

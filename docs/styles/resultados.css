@@ -1,26 +1,61 @@
+
+/*RESULTADOS*/
+
 .resultados {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     gap: 2rem;
-    padding: 0 6rem;
+    padding: 0 3rem;
 }
 
-.resultados__bloco-titulo {
+.resultados__numero {
     color: var(--cor-vinho);
     font-size: 60px;
     font-weight: 600;
     line-height: 72px;
 }
 
-.resultados__bloco-subtitulo {
+.resultados__span {
     color: var(--cor-titulos);
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
 }
 
-.resultados__bloco-texto {
+.resultados__texto {
     font-weight: 400;
     line-height: 24px;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 480px) {
+
+    .resultados {
+        grid-template-columns: 1fr;
+        padding: 0 2rem;
+    }
+
+    .resultados__bloco {
+        text-align: center;
+    }
+
+    .resultados__numero {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .resultados {
+        grid-template-columns: 1fr;
+    }
+
+    .resultados__bloco {
+        text-align: center;
+    }
+    
 }
