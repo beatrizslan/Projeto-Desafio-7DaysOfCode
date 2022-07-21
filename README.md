@@ -81,7 +81,7 @@ O desafio foi codificar do zero um projeto disponibilizado pela instituição e 
 
 ### Autor
 
-- Codificação - [Beatriz Slan](https://beatrizslan.github.io/Projeto-Product-Preview-Card/)
+- Codificação - [Beatriz Slan](https://beatrizslan.github.io/Projeto-Desafio-7DaysOfCode/)
 - Design do Projeto - [Alura](https://www.alura.com.br/escola-programacao)
 - Linkedin - [in/beatriz-slan](https://www.linkedin.com/in/beatriz-slan-2324a4173/)
 
